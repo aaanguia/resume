@@ -10,7 +10,7 @@
 \usepackage[letterspace=100]{microtype}
 \usepackage{soul}
 
-\usepackage[margin=1.3in,bottom=1.0in]{geometry}
+\usepackage[margin=1in, top=0.65in, bottom=0.65in]{geometry}
 \setcounter{secnumdepth}{0}
 
 \usepackage{titlesec}
@@ -25,45 +25,56 @@
 
 \usepackage{fancyhdr}
 \pagestyle{fancy}
-\renewcommand{\headrulewidth}{0pt}	
-\fancyhf{}							
+\renewcommand{\headrulewidth}{0pt}
+\fancyhf{}
 
 \begin{document}
 	\begin{center}
-    {\sffamily\LARGE\bfseries \so{Alex A. Anguiano}} \par\bigskip
+		{\sffamily\LARGE\bfseries \so{Alex A. Anguiano}} \par\bigskip
 		\sffamily\footnotesize \so{https://www.linkedin.com/in/alex-a-anguiano/} \\ \medskip
 		\so{(480) 335 2816 \quad alexanguiano96@gmail.com} \par
 	\end{center}
-	
+
 \section{Work Experience}
 	\subsection{Colorado Legislative Council \hfill Oct 2022 – Present}
-	\subsubsection{Associate Application Developer $\rightarrow$ Application Developer} 
-      	\begin{itemize}
-      		\item Developed and maintained critical web applications for the Colorado State Legislature, while streamlining legislative processes and reducing third-party costs. Key accomplishments include:
-      		\begin{itemize}
-      			\item Implemented an advanced rich text editor (SunEditor) with history tracking, improving document creation efficiency for legislative staff.
-      			\item Automated the generation of Colorado Red Books and revised statutes (Apache POI \& iText7), enabling on-demand access and facilitating legal review.
-      			\item Replaced a legacy Microsoft Access system for the Joint Budget Committee, enabling the creation and management of the state's annual budget through a modern interface (React \& Java Spring).
-      		\end{itemize}
-      		\item Managed the full technology stack, from setting up on-premise servers, curating \& migrating databases, and CI/CD pipelines utilizing Bitbucket and Jenkins.
-      	\end{itemize}
-	
-	\subsection{Cognizant \hfill June 2021 - Oct 2022}
-	\subsubsection{Associate Full Stack Developer}
+	\subsubsection{Associate Application Developer $\rightarrow$ Application Developer}
 	\begin{itemize}
-		\item Transformed the Retail-Consumer-Goods Sales Division's client presentations by introducing interactive prototypes, leading to more engaging and effective sales engagements.
-		\item Developed a cutting-edge e-commerce Retail/Beauty application featuring virtual try-on capabilities using Mediapipe and 3.js, enhancing the online shopping experience.
-		\item Successfully delivered multiple complex projects integrating NFC/GeoTech, D3 data visualization, and WebXR technologies, collaborating effectively with international teams.
-		\item Effectively communicated project vision and progress to diverse audiences, including clients, upper management, and business unit executives, ensuring stakeholder buy-in and project success.
+		\item Developed and maintained mission-critical web applications for the Colorado State Legislature, streamlining legislative workflows and reducing third-party costs. Key accomplishments include:
+		\begin{itemize}
+			\item Implemented a rich text editor with version history, improving document creation efficiency for legislative staff.
+			\item Automated generation of the Colorado Revised Statutes for on-demand access and faster legal review. (Apache POI \& iText7)
+			\item Replaced a legacy Microsoft Access system for the Joint Budget Committee, enabling annual state budget creation and management through a modern interface (React \& Java Spring).
+		\end{itemize}
+		\item Appointed by leadership to spearhead organization-wide CI/CD automation for Java/Spring and Rails stacks, while managing end-to-end infrastructure, database migrations, and DevOps tooling (Jenkins, Artifactory, Docker, Bitbucket).
+	\end{itemize}
+
+	\subsection{Cognizant \hfill June 2021 – Oct 2022}
+	\subsubsection{Associate Full-Stack Developer}
+	\begin{itemize}
+		\item Designed interactive retail sales prototypes that increased client engagement and secured executive buy-in with international teams in India and the Netherlands.
+		\item Built a virtual try-on e-commerce application using MediaPipe and Three.js, integrating WebXR, D3 visualizations, and NFC/GeoTech capabilities.
 	\end{itemize}
 
 \section{Education}
 	\subsection{Arizona State University}
+	\begin{itemize}
+		\item M.S.E. in Software Engineering, cum laude. \hfill August 2023 – May 2026.
+		\item B.S. in Software Engineering, cum laude. \hfill August 2017 – May 2021.
+	\end{itemize}
+
+\section{Project}
+	\subsection{Orchestrating Autonomous Systems and Their Visualization}
+	\begin{itemize}
+		\item Built a community-driven framework to overcome proprietary barriers and support trusted public autonomous deployment.
 		\begin{itemize}
-			\item M.S.E. in Software Engineering August 2023-Present.
-			\item B.S. in Software Engineering, cum laude, August 2017-May 2021.
+			\item Simulated scalable autonomous swarms in Rust with data integrity, mission replay, and high-frequency fleet management.
+			\item Integrated Cesium.js and Three.js for real-time object detection and live vehicle animation.
+			\item Implemented schema evolution support to reduce refactoring across environments.
+			\item Reduced operator training and deployment overhead by simplifying software complexity.
 		\end{itemize}
+	\end{itemize}
 
 \section{Technologies}
-	\subsubsection{Java, Spring Boot, JavaScript/Typescript, React, JSON, REST, AWS, MySQL, MSSQL Server}
+	\subsubsection{Java Spring, JavaScript/TypeScript, React, Jenkins, Artifactory, Docker, REST}
+
 \end{document}
